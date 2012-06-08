@@ -39,3 +39,16 @@ body {
 	color:				#333;
 	background-color:	#eee;
 }
+body > * {
+	width:				800px;
+	margin:				auto;
+}
+section {
+	margin:				20% auto;
+}
+header {
+	font-size:			4rem;
+	font-family:		Raleway;
+	text-align:			center;
+	text-shadow:		0 0 1px #999;
+}
