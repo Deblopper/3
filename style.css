@@ -35,6 +35,10 @@ a {
 	outline:			0;
 	text-decoration:	none;
 }
+hr {
+	border:				1px solid;
+	border-color:		#ccc transparent #fff;
+}
 
 /* 1. Imports */
 
