@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/**
+ * Stylesheet Index:
+ * =================
+ *
+ * 0. Reset
+ * 1. Imports
+ * 2. Elements
+ * 3. ID & Class
+ * 4. Pseudoclass
+ * 5. Media Queries
+ */
+
+/* 0. Reset */
+* {
+	-moz-box-sizing:  border-box;
+	box-sizing:      border-box;
+}
+body {
+	width:				100%;
+	margin:				0;
+	padding:			0;
+	min-width:			320px;
+	font-family:		Verdana, Georgia, Helvetica,	/* Desktop	*/
+						"Droid Sans", "Helvetica Neue",	/* Mobile	*/
+						Sans-serif;						/* Fallback	*/
+	-webkit-transform:	translateZ(0);
+	-moz-transform:		translateZ(0);
+	-ms-transform:		translateZ(0);
+	-o-transform:		translateZ(0);
+	transform:			translateZ(0);
+}
+
+/* 1. Imports */
+
+/* 2. Elements */
+body {
+	color:				#333;
+	background-color:	#eee;
+}
