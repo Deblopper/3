@@ -31,6 +31,10 @@ body {
 	-o-transform:		translateZ(0);
 	transform:			translateZ(0);
 }
+a {
+	outline:			0;
+	text-decoration:	none;
+}
 
 /* 1. Imports */
 
@@ -42,6 +46,7 @@ body {
 body > * {
 	width:				800px;
 	margin:				auto;
+	text-align:			center;
 }
 section {
 	margin:				20% auto;
@@ -49,6 +54,32 @@ section {
 header {
 	font-size:			4rem;
 	font-family:		Raleway;
-	text-align:			center;
 	text-shadow:		0 0 1px #999;
 }
+nav {
+	margin:				2rem auto;
+	display:			table;
+	font-size:			1.5rem;
+	font-family:		Raleway;
+}
+nav a {
+	color:				#678;
+	width:				25%;
+	padding:			1rem;
+	display:			table-cell;
+	border:				1px solid;
+	border-color:		transparent;
+	text-shadow:		0 0 0 #666;
+}
+
+/* 3. ID & Class */
+
+/* 4. Pseudoclass */
+nav a:hover {
+	border-color:		#ccc;
+	border-radius:		2px;
+	box-shadow:			inset 0 0 2px #fff,
+						inset 0 -10px 50px rgba(0,0,0,0.1);
+}
+
+/* 5. Media Queries */
