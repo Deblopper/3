@@ -134,12 +134,18 @@ footer a:hover {
 		padding:			0 1rem;
 	}
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
 	header { font-size: 3rem; }
-	nav {
+	nav { font-size: 1.2rem; }
+	footer > * {
+		width:				100%;
 		display:			block;
-		font-size:			1.2rem;
 	}
+	footer div, footer h6 { text-align: center; }
+}
+@media screen and (max-width: 512px) {
+	header { font-size: 2.5rem; }
+	nav { display: block; }
 	nav a {
 		width:				100%;
 		display:			block;
@@ -154,11 +160,6 @@ footer a:hover {
 	}
 	nav a:first-child { border-radius: 6px 6px 0 0; }
 	nav a:last-child { border-radius: 0 0 6px 6px; }
-	footer > * {
-		width:				100%;
-		display:			block;
-	}
-	footer div, footer h6 { text-align: center; }
 }
 @media screen and (max-width: 400px) {
 	header { font-size: 2rem; }
