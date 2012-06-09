@@ -143,7 +143,15 @@ footer a:hover {
 	nav a {
 		width:				100%;
 		display:			block;
+		background:			-webkit-linear-gradient(top, #eee, #ddd);
+		background:			-moz-linear-gradient(top, #eee, #ddd);
+		background:			-ms-linear-gradient(top, #eee, #ddd);
+		background:			-o-linear-gradient(top, #eee, #ddd);
+		background:			linear-gradient(top, #eee, #ddd);
+		border-color:		#eee #ccc #aaa;
 	}
+	nav a:first-child { border-radius: 6px 6px 0 0; }
+	nav a:last-child { border-radius: 0 0 6px 6px; }
 	footer > * {
 		width:				100%;
 		display:			block;
