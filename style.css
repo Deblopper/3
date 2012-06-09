@@ -53,10 +53,8 @@ body > * {
 	margin:				auto;
 	text-align:			center;
 }
-section {
-	margin:				20% auto;
-}
 header {
+	margin-top:			20%;
 	font-size:			4rem;
 	font-family:		Raleway;
 	text-shadow:		0 0 1px #999;
