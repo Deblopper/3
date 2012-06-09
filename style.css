@@ -14,9 +14,12 @@
 
 /* 0. Reset */
 * {
-	-moz-box-sizing:  border-box;
-	box-sizing:      border-box;
+	-moz-box-sizing:	border-box;
+	box-sizing:			border-box;
 }
+::selection { background: rgba(0, 0, 0, 0.1); }
+::-moz-selection { background: rgba(0, 0, 0, 0.1); }
+html { font-size: 16px; }
 body {
 	width:				100%;
 	margin:				0;
@@ -54,6 +57,7 @@ body > * {
 	text-align:			center;
 }
 header {
+	cursor:				default;
 	margin-top:			20%;
 	font-size:			4rem;
 	font-family:		Raleway;
