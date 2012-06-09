@@ -148,7 +148,9 @@ footer a:hover {
 		background:			-ms-linear-gradient(top, #eee, #ddd);
 		background:			-o-linear-gradient(top, #eee, #ddd);
 		background:			linear-gradient(top, #eee, #ddd);
-		border-color:		#eee #ccc #aaa;
+		font-weight:		bold;
+		border-color:		#eee #ccc #bbb;
+		border-radius:		0;
 	}
 	nav a:first-child { border-radius: 6px 6px 0 0; }
 	nav a:last-child { border-radius: 0 0 6px 6px; }
