@@ -128,3 +128,30 @@ footer a:hover {
 }
 
 /* 5. Media Queries */
+@media screen and (max-width: 800px) {
+	body > * {
+		width:				100%;
+		padding:			0 1rem;
+	}
+}
+@media screen and (max-width: 620px) {
+	header { font-size: 3rem; }
+	nav {
+		display:			block;
+		font-size:			1.2rem;
+	}
+	nav a {
+		width:				100%;
+		display:			block;
+	}
+	footer > * {
+		width:				100%;
+		display:			block;
+	}
+	footer div, footer h6 { text-align: center; }
+}
+@media screen and (max-width: 400px) {
+	header { font-size: 2rem; }
+	nav { font-size: 1rem; }
+	#copyleft { font-size: 0.5rem; }
+}
