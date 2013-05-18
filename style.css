@@ -86,7 +86,7 @@ footer > * {
 }
 footer div { text-align: left; }
 footer h6 { text-align: right; }
-footer a {
+footer div a {
 	color:				#c44;
 	padding:			0 0.5rem;
 	font-size:			0.8rem;
@@ -96,7 +96,8 @@ footer a {
 #copyleft {
 	margin:				auto;
 	padding:			1rem 0.5rem;
-	font-size:			0.6rem;
+	font-size:			0.8rem;
+	font-weight:		normal;
 }
 #copyleft span {
 	font-weight:		bold;
@@ -107,6 +108,7 @@ footer a {
 	-o-transform:		scaleX(-1);
 	transform:			scaleX(-1);
 }
+#copyleft a { color: #c44; }
 .fade {
 	-webkit-transition:	all 300ms ease;
 	-moz-transition:	all 300ms ease;
