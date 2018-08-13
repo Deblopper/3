@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/debs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://debs.io
+  * I am debs (https://keybase.io/debs) on keybase.
+  * I have a public key with fingerprint B0CA 7DEA 40F3 120C 14A8  8484 9552 3A9B 0090 2AED
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "b0ca7dea40f3120c14a8848495523a9b00902aed",
+            "host": "keybase.io",
+            "key_id": "95523a9b00902aed",
+            "uid": "bdf98e3cbc202f24b5797c85f8430d00",
+            "username": "debs"
+        },
+        "service": {
+            "hostname": "debs.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1400660838,
+    "expire_in": 157680000,
+    "prev": "ea110ae99865bab949f1ac02c1839905a5dd3c5d688a0f8ba9b146aa51cebef8",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.15
+Comment: https://keybase.io/crypto
+
+yMHgAnicbZFdSBRdHMZ3/ShbjF1LLKKLmjAjt+3M1+7MQqhQVGi0oYRUtp2ZObMO
+6sy2O7urqVAkZLddVYJhoH2xkEsYuhWSXeRuFhqvFJpoqUjpRQlpL7h5xgq6aG6G
+8/x/z/Ocmf+Ljekmi3nMZn3Y98V83JzsnwuZyptEuZEQNKmBcDcSNWjtJSuqDwX8
+AUXVCTchABG6JAQZINMkBUSSgRzHcAzPshQNeQEAHlAQSYSdqNaChgPHCDCIHIqG
+NXzwKhJW/8GH1gaCJPMcokVBpAAlU4zAuniXyLEyx9BAAsAAgyigwjqEaQkJQaLZ
+TmAlrIhYaVyr/Wv6q9cf0HRN1GqxWK3rfrfh0Rv8BhRBgve33SsoqoQ/FxvCKBBU
+NJVwk5gUdcXIIxkAnE7A0ZydQPV+JYC8ikGwLicH8GPUoDCORJAkAUQ8zzlZAQo8
+w8skFAElkhzN84CFrCTRIis5OQ4CmRPwfyAZJ4QsKSIByRzuD6Lzqka4aXxN6MOR
+QcWnQj0UQETz8/4zGSazxbQuM81YmMmywfZnje++r0/lNznEwpWqthL3UNHR6P8D
+7I23xbH5nIqVk/bJ2+Vpaa+mMzNed+a6VX48FZnjZ6p6tsUvPMkd7Zp1fd2eCk35
+UnrenT2H9icOjJae2JwKLdWwtqzust5Ey2i9J/koFnszsqv7882e4cv9FVsyls9d
+KxtejjgOd5RYG9rnT7k8Y1d7I5amD0/Ne58t1XiGChLWCc9QV4zP6128lOxztHeO
+X/n4LatgoHjH3Nl4eDA6mT6xr95y62LsB4y2o013mzvu+briU9HH2a2zu0fa0oUF
+R+XC/Z8PlMzxnMW6/OTOma212YlP/7XajhCljtOF066X79lKa9bBY9Rg0fV4yyql
+yhPz
+=1Qyb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/debs
+
+==================================================================
+
